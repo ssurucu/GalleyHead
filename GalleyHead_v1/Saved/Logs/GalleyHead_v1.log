@@ -1457,3 +1457,409 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.18-09.58.22:859][ 95]LogFab: Display: User logged in
 [2025.04.18-09.58.22:859][ 95]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.04.18-09.58.22:991][111]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-h3JHyHdNe02HrTyEtLXMqQ-W7nh3Fo17EG7SxTuBYA78Q]
+[2025.04.18-09.59.06:205][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-09.59.06:207][469]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-09.59.06:208][469]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-09.59.06:209][469]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.443 ms
+[2025.04.18-09.59.06:209][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-09.59.06:209][469]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2025.04.18-09.59.06:211][469]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.04.18-09.59.06:240][470]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-09.59.06:244][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003783s)
+[2025.04.18-09.59.06:244][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003833s)
+[2025.04.18-09.59.06:266][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.04.18-09.59.06:266][470]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-09.59.06:267][470]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-09.59.06:267][470]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-09.59.06:267][470]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-09.59.06:267][470]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-09.59.06:268][470]LogWorldPartition: Display: WorldPartition initialize took 964 us (total: 93.791 ms)
+[2025.04.18-09.59.06:268][470]LogPlayLevel: PIE: World Init took: (0.002066s)
+[2025.04.18-09.59.06:269][470]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-09.59.06:269][470]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-09.59.06:269][470]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-09.59.06:269][470]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-09.59.06:269][470]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-09.59.06:269][470]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-09.59.06:270][470]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-09.59.06:290][470]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-09.59.06:290][470]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-09.59.06:290][470]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-09.59.06:290][470]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-09.59.06:290][470]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.04.18-09.59.06:290][470]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2025.04.18-09.59.06:291][470]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.04.18-09.59.06:291][470]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.04.18-09.59.06:291][470]LogInit: FAudioDevice initialized with ID 2.
+[2025.04.18-09.59.06:291][470]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2025.04.18-09.59.06:291][470]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.18-09.59.06:294][470]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-09.59.06:296][470]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-10.59.06
+[2025.04.18-09.59.06:296][470]LogWorld: Bringing up level for play took: 0.001562
+[2025.04.18-09.59.06:300][470]PIE: Server logged in
+[2025.04.18-09.59.06:300][470]PIE: Play in editor total start time 0.093 seconds.
+[2025.04.18-09.59.10:064][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-09.59.10:064][895]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-09.59.10:064][895]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-09.59.10:064][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-09.59.10:064][895]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-09.59.10:068][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-09.59.10:069][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-09.59.10:076][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-09.59.10:076][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.18-09.59.10:076][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.18-09.59.10:078][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.18-09.59.10:082][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-09.59.10:140][898]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.04.18-09.59.15:033][442]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.04.18-09.59.15:147][443]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.04.18-09.59.15:344][460]Cmd: DELETE
+[2025.04.18-09.59.15:344][460]Cmd: ACTOR DELETE
+[2025.04.18-09.59.15:345][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.15:352][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-09.59.15:353][460]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-09.59.15:991][523]Cmd: DELETE
+[2025.04.18-09.59.15:991][523]Cmd: ACTOR DELETE
+[2025.04.18-09.59.15:992][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.16:004][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.04.18-09.59.16:005][523]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.04.18-09.59.17:008][633]Cmd: DELETE
+[2025.04.18-09.59.17:008][633]Cmd: ACTOR DELETE
+[2025.04.18-09.59.17:009][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.17:020][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.17:021][633]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.04.18-09.59.17:359][662]Cmd: DELETE
+[2025.04.18-09.59.17:359][662]Cmd: ACTOR DELETE
+[2025.04.18-09.59.17:360][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.17:373][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.18-09.59.17:374][662]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.04.18-09.59.18:097][737]Cmd: DELETE
+[2025.04.18-09.59.18:097][737]Cmd: ACTOR DELETE
+[2025.04.18-09.59.18:098][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.18:110][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-09.59.18:112][737]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.04.18-09.59.18:512][772]Cmd: DELETE
+[2025.04.18-09.59.18:512][772]Cmd: ACTOR DELETE
+[2025.04.18-09.59.18:513][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.18:519][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.18:521][772]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2025.04.18-09.59.19:052][824]Cmd: DELETE
+[2025.04.18-09.59.19:053][824]Cmd: ACTOR DELETE
+[2025.04.18-09.59.19:053][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.19:061][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-09.59.19:063][824]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-09.59.19:383][848]Cmd: DELETE
+[2025.04.18-09.59.19:383][848]Cmd: ACTOR DELETE
+[2025.04.18-09.59.19:384][848]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.19:391][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.04.18-09.59.19:394][848]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-09.59.20:619][989]Cmd: TRANSACTION UNDO
+[2025.04.18-09.59.20:619][989]LogEditorTransaction: Undo Delete Elements
+[2025.04.18-09.59.21:848][ 85]Cmd: DELETE
+[2025.04.18-09.59.21:848][ 85]Cmd: ACTOR DELETE
+[2025.04.18-09.59.21:849][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.21:859][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.21:861][ 85]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2025.04.18-09.59.22:362][132]Cmd: DELETE
+[2025.04.18-09.59.22:362][132]Cmd: ACTOR DELETE
+[2025.04.18-09.59.22:363][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.22:370][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.04.18-09.59.22:373][132]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-09.59.23:149][212]Cmd: DELETE
+[2025.04.18-09.59.23:149][212]Cmd: ACTOR DELETE
+[2025.04.18-09.59.23:150][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-09.59.23:157][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.23:159][212]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-09.59.28:367][800]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.04.18-09.59.28:390][801]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.04.18-09.59.28:406][802]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.04.18-09.59.36:932][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.04.18-09.59.39:475][796]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-09.59.41:348][984]Cmd: DELETE
+[2025.04.18-09.59.41:348][984]Cmd: ACTOR DELETE
+[2025.04.18-09.59.41:349][984]LogEditorActor: Deleted Actor: BP_Pickup_Rifle_C
+[2025.04.18-09.59.41:356][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.41:358][984]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-09.59.42:497][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.42:500][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-09.59.42:545][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.42:556][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.18-09.59.42:564][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.18-09.59.42:574][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.832 ms
+[2025.04.18-09.59.45:003][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-09.59.47:005][393]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-09.59.47:067][393]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+	Asset Type: Blueprint
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_13 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_12 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_6 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_5 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_34 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_14 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_37 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_35 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_36 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.PackageMetaData in its package
+[2025.04.18-09.59.47:148][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.04.18-09.59.47:181][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.04.18-09.59.47:188][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-09.59.47:203][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.04.18-09.59.47:216][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-09.59.48:434][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-09.59.49:445][522]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-09.59.49:505][522]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+	Asset Type: Blueprint
+[2025.04.18-09.59.49:606][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-09.59.49:615][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-09.59.49:626][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-09.59.51:536][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-09.59.52:862][744]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-09.59.52:925][744]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile
+	Asset Type: Blueprint
+[2025.04.18-09.59.53:001][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-09.59.53:113][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-09.59.53:125][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.04.18-09.59.53:137][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.00.13:332][382]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.18-10.00.54:766][639]Cmd: DELETE
+[2025.04.18-10.00.54:766][639]Cmd: ACTOR DELETE
+[2025.04.18-10.00.54:768][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.54:775][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.00.54:777][639]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.00.55:962][772]Cmd: DELETE
+[2025.04.18-10.00.55:962][772]Cmd: ACTOR DELETE
+[2025.04.18-10.00.55:963][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.55:971][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.00.55:973][772]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-10.00.56:664][842]Cmd: DELETE
+[2025.04.18-10.00.56:664][842]Cmd: ACTOR DELETE
+[2025.04.18-10.00.56:665][842]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.56:671][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.00.56:673][842]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2025.04.18-10.00.57:013][873]Cmd: DELETE
+[2025.04.18-10.00.57:013][873]Cmd: ACTOR DELETE
+[2025.04.18-10.00.57:014][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.57:022][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-10.00.57:025][873]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.00.57:890][964]Cmd: DELETE
+[2025.04.18-10.00.57:890][964]Cmd: ACTOR DELETE
+[2025.04.18-10.00.57:891][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.57:899][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.18-10.00.57:901][964]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.00.58:688][ 46]Cmd: DELETE
+[2025.04.18-10.00.58:688][ 46]Cmd: ACTOR DELETE
+[2025.04.18-10.00.58:689][ 46]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.58:696][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.18-10.00.58:699][ 46]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.00.59:180][ 91]Cmd: DELETE
+[2025.04.18-10.00.59:181][ 91]Cmd: ACTOR DELETE
+[2025.04.18-10.00.59:182][ 91]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.59:188][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.00.59:190][ 91]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-10.00.59:543][121]Cmd: DELETE
+[2025.04.18-10.00.59:543][121]Cmd: ACTOR DELETE
+[2025.04.18-10.00.59:544][121]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.59:551][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.00.59:553][121]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.00.59:936][155]Cmd: DELETE
+[2025.04.18-10.00.59:936][155]Cmd: ACTOR DELETE
+[2025.04.18-10.00.59:936][155]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.00.59:943][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.18-10.00.59:945][155]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2025.04.18-10.01.00:374][194]Cmd: DELETE
+[2025.04.18-10.01.00:374][194]Cmd: ACTOR DELETE
+[2025.04.18-10.01.00:376][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.00:383][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.00:385][194]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.01:137][272]Cmd: DELETE
+[2025.04.18-10.01.01:137][272]Cmd: ACTOR DELETE
+[2025.04.18-10.01.01:138][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.01:146][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.04.18-10.01.01:148][272]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-10.01.01:539][307]Cmd: DELETE
+[2025.04.18-10.01.01:539][307]Cmd: ACTOR DELETE
+[2025.04.18-10.01.01:541][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.01:547][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.01:549][307]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.02:007][350]Cmd: DELETE
+[2025.04.18-10.01.02:007][350]Cmd: ACTOR DELETE
+[2025.04.18-10.01.02:009][350]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.02:015][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.02:018][350]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.02:925][446]Cmd: DELETE
+[2025.04.18-10.01.02:925][446]Cmd: ACTOR DELETE
+[2025.04.18-10.01.02:926][446]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.02:933][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.02:935][446]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2025.04.18-10.01.03:282][475]Cmd: DELETE
+[2025.04.18-10.01.03:282][475]Cmd: ACTOR DELETE
+[2025.04.18-10.01.03:283][475]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.03:290][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.03:291][475]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.03:744][517]Cmd: DELETE
+[2025.04.18-10.01.03:744][517]Cmd: ACTOR DELETE
+[2025.04.18-10.01.03:745][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.03:753][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.03:755][517]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-10.01.04:959][649]Cmd: DELETE
+[2025.04.18-10.01.04:959][649]Cmd: ACTOR DELETE
+[2025.04.18-10.01.04:960][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.04:967][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.04:969][649]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.05:959][755]Cmd: DELETE
+[2025.04.18-10.01.05:959][755]Cmd: ACTOR DELETE
+[2025.04.18-10.01.05:960][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.05:966][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.05:968][755]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.11:031][320]Cmd: DELETE
+[2025.04.18-10.01.11:031][320]Cmd: ACTOR DELETE
+[2025.04.18-10.01.11:031][320]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2025.04.18-10.01.11:032][320]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.11:040][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.11:042][320]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.11:728][391]Cmd: DELETE
+[2025.04.18-10.01.11:728][391]Cmd: ACTOR DELETE
+[2025.04.18-10.01.11:729][391]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.11:736][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.11:738][391]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.13:997][652]Cmd: DELETE
+[2025.04.18-10.01.13:997][652]Cmd: ACTOR DELETE
+[2025.04.18-10.01.13:998][652]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.14:006][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-10.01.14:008][652]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.18-10.01.14:558][706]Cmd: DELETE
+[2025.04.18-10.01.14:558][706]Cmd: ACTOR DELETE
+[2025.04.18-10.01.14:559][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.14:566][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.14:568][706]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.14:927][737]Cmd: DELETE
+[2025.04.18-10.01.14:927][737]Cmd: ACTOR DELETE
+[2025.04.18-10.01.14:928][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.14:935][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.14:937][737]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.15:411][782]Cmd: DELETE
+[2025.04.18-10.01.15:412][782]Cmd: ACTOR DELETE
+[2025.04.18-10.01.15:412][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.15:419][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.15:421][782]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2025.04.18-10.01.16:143][856]Cmd: DELETE
+[2025.04.18-10.01.16:143][856]Cmd: ACTOR DELETE
+[2025.04.18-10.01.16:144][856]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.16:151][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-10.01.16:153][856]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.16:688][908]Cmd: DELETE
+[2025.04.18-10.01.16:688][908]Cmd: ACTOR DELETE
+[2025.04.18-10.01.16:689][908]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.16:695][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.16:697][908]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.17:291][967]Cmd: DELETE
+[2025.04.18-10.01.17:291][967]Cmd: ACTOR DELETE
+[2025.04.18-10.01.17:292][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.17:300][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.17:303][967]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2025.04.18-10.01.17:711][  4]Cmd: DELETE
+[2025.04.18-10.01.17:711][  4]Cmd: ACTOR DELETE
+[2025.04.18-10.01.17:712][  4]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.17:719][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.17:721][  4]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.18:066][ 34]Cmd: DELETE
+[2025.04.18-10.01.18:066][ 34]Cmd: ACTOR DELETE
+[2025.04.18-10.01.18:068][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.18:075][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.18:077][ 34]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.18:714][ 98]Cmd: DELETE
+[2025.04.18-10.01.18:714][ 98]Cmd: ACTOR DELETE
+[2025.04.18-10.01.18:715][ 98]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.18:721][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.18:723][ 98]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.19:076][128]Cmd: DELETE
+[2025.04.18-10.01.19:076][128]Cmd: ACTOR DELETE
+[2025.04.18-10.01.19:077][128]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.19:085][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.19:087][128]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.19:734][193]Cmd: DELETE
+[2025.04.18-10.01.19:734][193]Cmd: ACTOR DELETE
+[2025.04.18-10.01.19:735][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.18-10.01.19:743][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.04.18-10.01.19:745][193]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2025.04.18-10.01.23:875][679]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.18-10.01.23:875][679]LogStreaming: Display: FlushAsyncLoading(411): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.18-10.01.23:887][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.18-10.01.25:288][679]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-10.01.25:333][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.04.18-10.01.25:340][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-10.01.25:346][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.32:811][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.01.32:851][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.32:860][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-10.01.32:868][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.04.18-10.01.32:876][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.843 ms (total: 137.675 ms)
+[2025.04.18-10.01.33:593][624]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-10.01.33:604][624]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-10.01.33:604][624]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-10.01.33:605][624]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 761 us (total: 2.204 ms)
+[2025.04.18-10.01.33:605][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-10.01.33:644][624]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2025.04.18-10.01.33:645][624]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.04.18-10.01.33:665][625]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.01.33:666][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001600s)
+[2025.04.18-10.01.33:666][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001637s)
+[2025.04.18-10.01.33:672][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-10.01.33:673][625]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-10.01.33:674][625]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-10.01.33:674][625]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-10.01.33:674][625]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-10.01.33:674][625]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-10.01.33:674][625]LogWorldPartition: Display: WorldPartition initialize took 495 us (total: 94.287 ms)
+[2025.04.18-10.01.33:674][625]LogPlayLevel: PIE: World Init took: (0.001579s)
+[2025.04.18-10.01.33:675][625]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-10.01.33:675][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-10.01.33:675][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-10.01.33:675][625]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-10.01.33:675][625]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-10.01.33:675][625]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-10.01.33:677][625]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-10.01.33:696][625]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-10.01.33:696][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-10.01.33:696][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-10.01.33:696][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-10.01.33:696][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.04.18-10.01.33:696][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2025.04.18-10.01.33:698][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.04.18-10.01.33:698][625]LogInit: FAudioDevice initialized with ID 3.
+[2025.04.18-10.01.33:698][625]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2025.04.18-10.01.33:698][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.04.18-10.01.33:698][625]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.18-10.01.33:700][625]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-10.01.33:701][625]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-11.01.33
+[2025.04.18-10.01.33:701][625]LogWorld: Bringing up level for play took: 0.000588
+[2025.04.18-10.01.33:702][625]PIE: Server logged in
+[2025.04.18-10.01.33:703][625]PIE: Play in editor total start time 0.099 seconds.
+[2025.04.18-10.01.36:304][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.01.36:304][928]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.01.36:304][928]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.01.36:304][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.01.36:304][928]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-10.01.36:307][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-10.01.36:308][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.01.36:317][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.01.36:318][928]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.18-10.01.36:318][928]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.18-10.01.36:319][928]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.18-10.01.36:323][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.04.18-10.01.36:376][929]LogPlayLevel: Display: Destroying online subsystem :Context_7
