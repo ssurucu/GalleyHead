@@ -1863,3 +1863,555 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.18-10.01.36:319][928]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2025.04.18-10.01.36:323][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2025.04.18-10.01.36:376][929]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.04.18-10.01.59:671][684]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.04.18-10.01.59:671][684]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.04.18-10.01.59:720][684]LogStreaming: Display: FlushAsyncLoading(415): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.18-10.02.00:350][684]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.04.18-10.02.03:947][ 10]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.04.18-10.02.05:421][147]LogStreaming: Display: FlushAsyncLoading(605): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.18-10.02.07:820][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.04.18-10.02.08:375][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.02.08:397][441]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.18-10.02.08:398][441]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.18-10.02.08:402][441]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.18-10.02.08:402][441]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/BP_FirstPersonCharacter78D6E5E24B75AF177E0A4BA29B0F6E05.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.18-10.02.08:413][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.028 ms (total: 175.704 ms)
+[2025.04.18-10.02.08:439][441]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.18-10.02.08:439][441]LogContentValidation: Enabled validators:
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.18-10.02.08:439][441]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.18-10.02.08:440][441]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.18-10.02.08:925][494]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.04.18-10.02.08:931][494]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.02.08:931][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.02.08:956][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.04.18-10.02.12:704][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.04.18-10.02.16:661][931]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.18-10.02.16:725][931]LogUObjectGlobals: Force Deleting 39 Package(s):
+	Asset Name: /Game/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.SK_Mannequin_Arms_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.SK_Mannequin_Arms_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Falling.FP_Falling
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Idle.FP_Idle
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Jump.FP_Jump
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Land.FP_Land
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Run_Fwd.FP_Run_Fwd
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Falling.FP_Rifle_Falling
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Idle.FP_Rifle_Idle
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Jump.FP_Rifle_Jump
+	Asset Type: AnimSequence
+[2025.04.18-10.02.16:854][931]LogTexture: Display: Building textures: /Game/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.CA_Mannequin (RGBA16F, 64x64 x1x1x1) (Required Memory Estimate: 1.177074 MB), EncodeSpeed: Fast
+[2025.04.18-10.02.16:855][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.16:863][931]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 55ccf62b3003876859a44279a239c5a33df27dfd), compiling. Is special engine material.
+[2025.04.18-10.02.17:330][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.17:331][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.17:332][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.17:332][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.17:333][931]LogMaterial: Warning: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPersonArms\Character\Materials\M_Mannequin.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_26 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_45 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_25 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_23 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_40 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_50 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.PackageMetaData in its package
+[2025.04.18-10.02.19:327][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_1 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_47 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_24 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_15 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_33 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_17 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_21 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_22 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_43 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_49 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_30 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_41 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_44 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_8 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_46 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_18 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_19 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_32 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_31 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_16 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_51 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_28 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_27 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_38 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_29 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.PackageMetaData in its package
+[2025.04.18-10.02.19:328][931]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_20 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.PackageMetaData in its package
+[2025.04.18-10.02.19:347][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.04.18-10.02.19:359][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.04.18-10.02.19:368][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.04.18-10.02.19:421][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.18-10.03.40:494][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MF_ProcGrid.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset
+[2025.04.18-10.03.40:494][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_PrototypeGrid_Gray.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_PrototypeGrid_TopDark.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_Solid_Blue.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_PrototypeGrid.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_Solid.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Materials/M_Solid.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_ChamferCube.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset
+[2025.04.18-10.03.40:495][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Cube.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Meshes/SM_Cube.uasset
+[2025.04.18-10.03.40:496][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_QuarterCylinder.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset
+[2025.04.18-10.03.40:496][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Ramp.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Meshes/SM_Ramp.uasset
+[2025.04.18-10.03.40:496][581]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Textures/T_GridChecker_A.uasset to ../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset
+[2025.04.18-10.03.41:071][581]LogStreaming: Display: FlushAsyncLoading(606): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.18-10.03.41:076][581]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Epic Games/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack)
+[2025.04.18-10.03.41:091][581]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2025.04.18-10.03.41:095][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+[2025.04.18-10.03.41:098][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2025.04.18-10.03.41:101][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap.umap" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+[2025.04.18-10.03.41:106][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset"
+[2025.04.18-10.03.41:109][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/IMC_Default.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Input/IMC_Default.uasset"
+[2025.04.18-10.03.41:111][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Jump.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Input/Actions/IA_Jump.uasset"
+[2025.04.18-10.03.41:115][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Look.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Input/Actions/IA_Look.uasset"
+[2025.04.18-10.03.41:118][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Move.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Input/Actions/IA_Move.uasset"
+[2025.04.18-10.03.41:121][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset"
+[2025.04.18-10.03.41:124][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset"
+[2025.04.18-10.03.41:127][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset"
+[2025.04.18-10.03.41:129][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset"
+[2025.04.18-10.03.41:133][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset"
+[2025.04.18-10.03.41:136][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset"
+[2025.04.18-10.03.41:139][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset"
+[2025.04.18-10.03.41:142][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset"
+[2025.04.18-10.03.41:145][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset"
+[2025.04.18-10.03.41:149][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset"
+[2025.04.18-10.03.41:152][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset"
+[2025.04.18-10.03.41:156][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
+[2025.04.18-10.03.41:159][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
+[2025.04.18-10.03.41:161][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset"
+[2025.04.18-10.03.41:166][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset"
+[2025.04.18-10.03.41:169][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset"
+[2025.04.18-10.03.41:172][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset"
+[2025.04.18-10.03.41:174][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset"
+[2025.04.18-10.03.41:177][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset"
+[2025.04.18-10.03.41:181][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset"
+[2025.04.18-10.03.41:184][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset"
+[2025.04.18-10.03.41:188][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset"
+[2025.04.18-10.03.41:191][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset"
+[2025.04.18-10.03.41:194][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset"
+[2025.04.18-10.03.41:197][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset"
+[2025.04.18-10.03.41:200][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset"
+[2025.04.18-10.03.41:204][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset"
+[2025.04.18-10.03.41:207][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset"
+[2025.04.18-10.03.41:210][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset"
+[2025.04.18-10.03.41:213][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset"
+[2025.04.18-10.03.41:215][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset"
+[2025.04.18-10.03.41:218][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset"
+[2025.04.18-10.03.41:221][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset"
+[2025.04.18-10.03.41:225][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset"
+[2025.04.18-10.03.41:228][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset"
+[2025.04.18-10.03.41:232][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset"
+[2025.04.18-10.03.41:235][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset"
+[2025.04.18-10.03.41:238][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset"
+[2025.04.18-10.03.41:241][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset"
+[2025.04.18-10.03.41:243][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset"
+[2025.04.18-10.03.41:246][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset"
+[2025.04.18-10.03.41:249][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset"
+[2025.04.18-10.03.41:251][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset"
+[2025.04.18-10.03.41:255][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset"
+[2025.04.18-10.03.41:258][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset"
+[2025.04.18-10.03.41:261][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset"
+[2025.04.18-10.03.41:263][581]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset" to "../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
+[2025.04.18-10.03.41:523][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.03.41:549][581]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.18-10.03.41:549][581]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.04.18-10.03.41:575][581]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.04.18-10.03.41:575][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.04.18-10.03.41:582][581]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.18-10.03.41:582][581]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/BP_ThirdPersonCharacter70E93EF44EE349E4734AC09F04FEECF8.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.18-10.03.41:590][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.274 ms (total: 242.978 ms)
+[2025.04.18-10.03.41:706][581]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.18-10.03.41:706][581]LogContentValidation: Enabled validators:
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.18-10.03.41:706][581]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.18-10.03.41:706][581]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.04.18-10.03.41:729][582]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 323.956879
+[2025.04.18-10.03.41:867][595]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.18-10.03.41:867][595]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 324.088013, Update Interval: 323.989380
+[2025.04.18-10.03.42:670][692]LogSlate: Window 'Add Content to the Project' being destroyed
+[2025.04.18-10.03.45:398][  4]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.04.18-10.03.45:398][  4]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.04.18-10.03.45:402][  4]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.18-10.03.45:404][  4]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.18-10.03.46:033][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.04.18-10.03.46:034][ 70]LogEditorActor: Deleted 0 Actors (0.016 secs)
+[2025.04.18-10.03.46:041][ 70]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.04.18-10.03.46:041][ 70]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.04.18-10.03.46:048][ 70]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_701AB827B3C40A6002_1994943631
+[2025.04.18-10.03.46:050][ 70]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_701AB827B3C40A6002_1994943631
+[2025.04.18-10.03.46:180][ 72]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.04.18-10.03.47:245][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-10.03.47:249][167]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-10.03.47:249][167]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-10.03.47:250][167]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.031 ms (total: 3.235 ms)
+[2025.04.18-10.03.47:250][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-10.03.47:273][167]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2025.04.18-10.03.47:275][167]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.04.18-10.03.47:300][168]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.03.47:301][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002006s)
+[2025.04.18-10.03.47:301][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002040s)
+[2025.04.18-10.03.47:312][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.03.47:313][168]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-10.03.47:314][168]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-10.03.47:314][168]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-10.03.47:314][168]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-10.03.47:314][168]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-10.03.47:315][168]LogWorldPartition: Display: WorldPartition initialize took 596 us (total: 94.883 ms)
+[2025.04.18-10.03.47:315][168]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2025.04.18-10.03.47:315][168]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-10.03.47:315][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-10.03.47:315][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-10.03.47:315][168]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-10.03.47:315][168]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-10.03.47:315][168]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-10.03.47:317][168]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-10.03.47:336][168]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-10.03.47:336][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-10.03.47:336][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-10.03.47:336][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-10.03.47:337][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.18-10.03.47:337][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2025.04.18-10.03.47:338][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.18-10.03.47:339][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.18-10.03.47:339][168]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.18-10.03.47:339][168]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.04.18-10.03.47:339][168]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.18-10.03.47:341][168]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-10.03.47:343][168]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-11.03.47
+[2025.04.18-10.03.47:344][168]LogWorld: Bringing up level for play took: 0.002386
+[2025.04.18-10.03.47:345][168]PIE: Server logged in
+[2025.04.18-10.03.47:346][168]PIE: Play in editor total start time 0.097 seconds.
+[2025.04.18-10.03.55:364][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.03.55:364][102]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.03.55:364][102]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.03.55:364][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.03.55:365][102]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-10.03.55:367][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-10.03.55:370][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.03.55:384][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.03.55:384][102]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.18-10.03.55:385][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.18-10.03.55:386][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.18-10.03.55:391][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.03.55:475][103]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.04.18-10.03.58:153][375]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.04.18-10.03.58:153][375]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.04.18-10.04.39:218][564]LogBlueprint: Error: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2025.04.18-10.04.39:218][564]LogBlueprint: Error: [AssetLog] D:\Projects\Daingean Games\Galley Head\v1\GalleyHead\GalleyHead_v1\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2025.04.18-10.04.39:251][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.04.40:021][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.04.40:053][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.18-10.04.40:053][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.18-10.04.40:059][624]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.18-10.04.40:059][624]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/BP_FirstPersonCharacter627C8A4F488C40D62EEE09809A72B38A.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.18-10.04.40:066][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.820 ms (total: 288.799 ms)
+[2025.04.18-10.04.40:092][624]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.18-10.04.40:092][624]LogContentValidation: Enabled validators:
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.18-10.04.40:092][624]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.18-10.04.40:092][624]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.18-10.04.43:127][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.04.18-10.04.43:543][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.04.43:565][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.04.18-10.04.43:565][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.04.18-10.04.43:571][910]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.18-10.04.43:571][910]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/BP_FirstPersonCharacter1DDE938445497D6840978E83315B8F57.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.18-10.04.43:577][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.411 ms (total: 322.211 ms)
+[2025.04.18-10.04.43:605][910]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.18-10.04.43:605][910]LogContentValidation: Enabled validators:
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.18-10.04.43:605][910]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.18-10.04.43:605][910]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.04.18-10.04.44:227][960]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.04.18-10.04.44:273][960]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.04.44:273][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.04.44:303][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.04.18-10.04.45:278][ 57]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-10.04.45:281][ 57]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-10.04.45:281][ 57]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-10.04.45:281][ 57]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.027 ms (total: 4.263 ms)
+[2025.04.18-10.04.45:281][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-10.04.45:324][ 57]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2025.04.18-10.04.45:326][ 57]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.04.18-10.04.45:346][ 58]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.04.45:348][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002033s)
+[2025.04.18-10.04.45:348][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002069s)
+[2025.04.18-10.04.45:360][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.04.45:362][ 58]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-10.04.45:364][ 58]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-10.04.45:364][ 58]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-10.04.45:364][ 58]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-10.04.45:364][ 58]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-10.04.45:364][ 58]LogWorldPartition: Display: WorldPartition initialize took 693 us (total: 95.577 ms)
+[2025.04.18-10.04.45:364][ 58]LogPlayLevel: PIE: World Init took: (0.002066s)
+[2025.04.18-10.04.45:365][ 58]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-10.04.45:365][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-10.04.45:365][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-10.04.45:365][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-10.04.45:365][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-10.04.45:365][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-10.04.45:367][ 58]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.04.18-10.04.45:386][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2025.04.18-10.04.45:388][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.04.18-10.04.45:388][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.04.18-10.04.45:388][ 58]LogInit: FAudioDevice initialized with ID 5.
+[2025.04.18-10.04.45:388][ 58]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2025.04.18-10.04.45:388][ 58]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.18-10.04.45:390][ 58]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-10.04.45:393][ 58]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-11.04.45
+[2025.04.18-10.04.45:393][ 58]LogWorld: Bringing up level for play took: 0.002627
+[2025.04.18-10.04.45:395][ 58]PIE: Server logged in
+[2025.04.18-10.04.45:396][ 58]PIE: Play in editor total start time 0.115 seconds.
+[2025.04.18-10.04.57:103][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.04.57:103][447]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.04.57:104][447]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.04.57:104][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.04.57:104][447]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-10.04.57:109][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-10.04.57:111][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.04.57:127][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.04.57:127][447]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.18-10.04.57:127][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.18-10.04.57:129][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.18-10.04.57:134][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.04.18-10.04.57:218][448]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.04.18-10.05.13:765][ 12]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-10.05.13:768][ 12]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-10.05.13:768][ 12]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-10.05.13:769][ 12]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.151 ms (total: 5.415 ms)
+[2025.04.18-10.05.13:769][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-10.05.13:803][ 12]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2025.04.18-10.05.13:805][ 12]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.04.18-10.05.13:826][ 13]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.05.13:828][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
+[2025.04.18-10.05.13:828][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001840s)
+[2025.04.18-10.05.13:838][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.05.13:844][ 13]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-10.05.13:845][ 13]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-10.05.13:845][ 13]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-10.05.13:845][ 13]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-10.05.13:845][ 13]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-10.05.13:845][ 13]LogWorldPartition: Display: WorldPartition initialize took 615 us (total: 96.193 ms)
+[2025.04.18-10.05.13:845][ 13]LogPlayLevel: PIE: World Init took: (0.001801s)
+[2025.04.18-10.05.13:846][ 13]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-10.05.13:846][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-10.05.13:846][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-10.05.13:846][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-10.05.13:846][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-10.05.13:846][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-10.05.13:848][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.04.18-10.05.13:867][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2025.04.18-10.05.13:869][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.04.18-10.05.13:869][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.04.18-10.05.13:869][ 13]LogInit: FAudioDevice initialized with ID 6.
+[2025.04.18-10.05.13:869][ 13]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.04.18-10.05.13:869][ 13]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.18-10.05.13:871][ 13]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-10.05.13:873][ 13]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-11.05.13
+[2025.04.18-10.05.13:873][ 13]LogWorld: Bringing up level for play took: 0.002412
+[2025.04.18-10.05.13:875][ 13]PIE: Server logged in
+[2025.04.18-10.05.13:876][ 13]PIE: Play in editor total start time 0.107 seconds.
+[2025.04.18-10.05.16:343][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.05.16:343][302]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.05.16:343][302]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.05.16:343][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.05.16:344][302]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-10.05.16:347][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-10.05.16:349][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.05.16:362][302]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.18-10.05.16:362][302]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.18-10.05.16:362][302]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.18-10.05.16:364][302]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.18-10.05.16:367][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.05.16:369][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.04.18-10.05.16:451][303]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.04.18-10.05.21:168][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.04.18-10.05.21:916][838]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.18-10.05.21:919][838]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.18-10.05.21:919][838]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.04.18-10.05.21:920][838]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 938 us (total: 6.353 ms)
+[2025.04.18-10.05.21:920][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.18-10.05.21:953][838]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2025.04.18-10.05.21:955][838]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.04.18-10.05.21:970][839]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.05.21:972][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001748s)
+[2025.04.18-10.05.21:972][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001782s)
+[2025.04.18-10.05.21:984][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.18-10.05.21:985][839]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.04.18-10.05.21:986][839]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.18-10.05.21:986][839]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.18-10.05.21:986][839]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.18-10.05.21:986][839]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.18-10.05.21:987][839]LogWorldPartition: Display: WorldPartition initialize took 602 us (total: 96.795 ms)
+[2025.04.18-10.05.21:987][839]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2025.04.18-10.05.21:988][839]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.18-10.05.21:988][839]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.18-10.05.21:988][839]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.18-10.05.21:988][839]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.18-10.05.21:988][839]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.18-10.05.21:988][839]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.18-10.05.21:990][839]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.18-10.05.22:008][839]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.18-10.05.22:008][839]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.18-10.05.22:008][839]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.18-10.05.22:008][839]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.18-10.05.22:008][839]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.04.18-10.05.22:008][839]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2025.04.18-10.05.22:010][839]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.04.18-10.05.22:010][839]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.04.18-10.05.22:010][839]LogInit: FAudioDevice initialized with ID 7.
+[2025.04.18-10.05.22:010][839]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2025.04.18-10.05.22:010][839]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.18-10.05.22:013][839]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.18-10.05.22:015][839]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.04.18-11.05.22
+[2025.04.18-10.05.22:016][839]LogWorld: Bringing up level for play took: 0.002509
+[2025.04.18-10.05.22:018][839]PIE: Server logged in
+[2025.04.18-10.05.22:018][839]PIE: Play in editor total start time 0.099 seconds.
+[2025.04.18-10.05.25:594][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.05.25:594][256]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.04.18-10.05.25:594][256]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.18-10.05.25:594][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.05.25:594][256]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.04.18-10.05.25:597][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.18-10.05.25:600][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.18-10.05.25:613][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.18-10.05.25:613][256]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.18-10.05.25:613][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.18-10.05.25:615][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.18-10.05.25:619][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.04.18-10.05.25:659][257]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.04.18-10.05.28:183][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.18-10.05.28:186][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.18-10.05.28:217][552]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47
+[2025.04.18-10.05.28:217][552]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/W1SXRCM1KAKBJOIZDLHZ47630D14394F41C31A158EEA8E0B6FBE32.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset'
+[2025.04.18-10.05.28:219][552]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VO/OTCH42GK6BKF2CT63NWWC9
+[2025.04.18-10.05.28:219][552]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Saved/OTCH42GK6BKF2CT63NWWC957F3F72144D440FC4CE76D9D99AFA0D3.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v1/GalleyHead/GalleyHead_v1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VO/OTCH42GK6BKF2CT63NWWC9.uasset'
+[2025.04.18-10.05.28:227][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.285 ms (total: 363.496 ms)
+[2025.04.18-10.05.28:257][552]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.18-10.05.28:257][552]LogContentValidation: Enabled validators:
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.18-10.05.28:257][552]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.18-10.05.28:258][552]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
